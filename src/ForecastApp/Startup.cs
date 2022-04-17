@@ -59,7 +59,7 @@ namespace ForecastApp
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=ForecastApp}/{action=SearchCity}/{id?}");
+                    template: "{controller=ForecastApp}/{action=City}/{city=Brno}");
             });
         }
     }

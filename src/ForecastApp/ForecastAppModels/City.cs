@@ -25,5 +25,8 @@ namespace ForecastApp.ForecastAppModels
 
         [Display(Name = "Weather Condition:")]
         public string Weather { get; set; }
+
+        [Display(Name = "Weather Icon:")]
+        public string Icon { get; set; }
     }
 }

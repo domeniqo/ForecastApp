@@ -51,6 +51,7 @@ namespace ForecastApp.Controllers
                 viewModel.Pressure = weatherResponse.Main.Pressure;
                 viewModel.Temp = weatherResponse.Main.Temp;
                 viewModel.Weather = weatherResponse.Weather[0].Main;
+                viewModel.Icon = weatherResponse.Weather[0].Icon;
                 viewModel.Wind = weatherResponse.Wind.Speed;
             } 
             return View(viewModel);

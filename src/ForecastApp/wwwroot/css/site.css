@@ -3,6 +3,8 @@ for details on configuring this project to bundle and minify static web assets. 
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-blue-arc-weather-background-image_253195.jpg');
+    background-size: cover;
 }
 
 /* Wrapping element */

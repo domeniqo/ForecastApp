@@ -7,6 +7,7 @@ namespace ForecastApp.Config
 {
     public static class Constants
     {
-        public const string OPEN_WEATHER_APPID = "2d716452512427c5fd5bbfe5262ea00f";
+        // domeniqo/ForecastAppWeb API key
+        public const string OPEN_WEATHER_APPID = "3271ba41235014e12c73645210b9390d";
     }
 }
